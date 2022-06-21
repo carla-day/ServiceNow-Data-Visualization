@@ -1,0 +1,73 @@
+
+.title{
+ text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+    );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+};
+h4{
+  width: 900px;
+}
+
+h1{
+width: 900px
+}
+nav a{
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  color: #fff;  
+  margin-left: 20px;
+  font-size: 2vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+nav{
+  background-color: #d8bdc6;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content:flex-start;
+}
+nav a:hover{
+  color: #c47f96;
+}
+nav a:link{
+  text-decoration: none;
+  color: #fff
+;}
+nav a::after{
+  text-decoration: none;
+  color: #fff;
+}
+
+#chart1, #chart2{
+  width: 900px;
+  height: 400px;
+}
+
+
+@media (max-width:900px){
+
+  #chart1, #chart2{
+    width: max-content;
+    height: 200px;
+  }
+h1, h4{
+  width: fit-content
+}
+}

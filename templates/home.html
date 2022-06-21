@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="{{ url_for('static',filename='style.css') }}">
+        {% if title%}
+        <title>Incidents Graph {{title}}</title>
+        {% endif %}
+        <title>Incidents Graph</title>
+        <!--Load chart js to be able to add responsive canvas-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    </head>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/chart1">Chart 1</a>
+        <a href="{{ url_for('chart2') }}">Chart 2</a>
+    </nav>
+    <body class="home">
+       <h1 class="title">Incidents Visualization</h1>
+      
+        <h4>
+            Using API data from Service Now, we will be analyzing each incident reported in the last 30 days.
+        </h4>
+        <h4>
+        Our goal is for our Service team to provide effective resolutions to maintain the severity of incidents low.
+        Knowing which categories are rating higher may give the team a clue on what categories need to be reviewed. 
+        </h4>
+      
+
+
+
+    </body>
+</html>

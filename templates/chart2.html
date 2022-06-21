@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="{{ url_for('static',filename='style.css') }}">        {% if title%}
+        <title>Incidents Graph {{title}}</title>
+        {% endif %}
+        <title>Incidents Graph</title>
+        <!--Load chart js to be able to add responsive canvas-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    </head>
+    <body>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/chart1">Chart 1</a>
+            <a href="{{ url_for('chart2') }}">Chart 2</a>
+        </nav>
+       <center><h1 class="chart2">Incidents with Low Severity</h1></center>
+       <center><div>
+        <!--Add size to make sure canvas dos not take up the whole screen-->
+       <canvas id="chart2"></canvas>
+    </div></center>
+
+       <script>
+        var ctx = document.getElementById("chart2").getContext("2d");
+        var chart2 = new Chart(ctx, {
+            type: "bar",
+            data:{
+                labels: {{ cat | safe }},
+                datasets: [{
+                    label: "Total Incidents",
+                    data: {{ values | safe }},
+                    backgroundColor: '#DAF7A6',
+
+                }]
+
+            },
+        //tells html to use the size given above and not whole page
+            options: {
+                responsive: false
+            }
+        })
+       </script>
+
+    </body>
+</html>
