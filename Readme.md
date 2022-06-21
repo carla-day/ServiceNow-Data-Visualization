@@ -7,20 +7,24 @@ Service Now Data Visualization with Python
 Using sample API data from Service Now (Rest API Explorer), I created two bar graphs to analyze how the service team is handling incidents, what category does the service team need to work on, and 
 what categories seem to be doing well. 
 
-### Executing program
+## Executing program
 To start, you must have python version 3 installed and pip 
---Use this link to install pip https://www.geeksforgeeks.org/how-to-install-pip-on-windows/
+###### Use this link to install pip https://www.geeksforgeeks.org/how-to-install-pip-on-windows/ 
 
 Once pip is installed we must install the libraries and framework we will use
 * pip install flask
 * pip install requests
 * pip install pandas
-    We do not need matplotlib as we will be using Chart.js to graph.
+    
+    ###### *We do not need matplotlib as we will be using Chart.js to graph*
 
 ## Authors
-Carla Day
-[![Carla’s github stats](https://github-readme-stats.vercel.app/api?username=carla-day)](https://github.com/carla-day) 
+###### Carla Day
+<a href=”https://www.linkedin.com/in/carla-day-2a3212217/"><img align=”left” src=”https://raw.githubusercontent.com/carla-day/ServiceNow-Data-Visualization/main/images/linkedin.png" alt=”icon | LinkedIn” width=”21px”/></a>
 
+[![Carla’s github stats](https://github-readme-stats.vercel.app/api?username=carla-day)](https://github.com/carla-day) 
+<br>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=carla-day&layout=compact)](https://github.com/carla-day)
 
 ## Acknowledgments
 
