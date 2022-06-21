@@ -1,6 +1,4 @@
-# Project Title
-
-Service Now Data Visualization with Python
+# Service Now Data Visualization with Python
 
 ## Description
 
@@ -20,17 +18,17 @@ Once pip is installed we must install the libraries and framework we will use
 
 ## Authors
 ###### Carla Day
-<a href=”https://www.linkedin.com/in/carla-day-2a3212217/"><img align=”left” src=”https://raw.githubusercontent.com/carla-day/ServiceNow-Data-Visualization/main/images/linkedin.png" alt=”icon | LinkedIn” width=”21px”/></a>
-
+<a href="linkedin.com/in/carla-day-2a3212217"> <img src="images/linkedin.svg" alt="Linked In" width="30"/> </a>
+<a href="github.com/carla-day" > <img src="images/github.svg" alt="GitHub Profile" width="30"/></a>
+<br>
+<br>
 [![Carla’s github stats](https://github-readme-stats.vercel.app/api?username=carla-day)](https://github.com/carla-day) 
+<br>
 <br>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=carla-day&layout=compact)](https://github.com/carla-day)
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+###### [#Yushi](https://yushi95.medium.com/how-to-create-a-beautiful-readme-for-your-github-profile-36957caa711c#:~:text=Creating%20a%20README.md%20File,-In%20order%20to%20show%20the)
+
