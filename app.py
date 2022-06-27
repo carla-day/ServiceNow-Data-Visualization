@@ -11,11 +11,11 @@ def index():
 
 @app.route('/chart1')
 def chart1():
-    url = 'https://dev103544.service-now.com/api/now/table/incident?sysparm_display_value=all&sysparm_fields=sys_class_name%2Ccategory%2Cseverity%2Ccorrelation_display%2Cclose_code'
+    url = 'https://dev71015.service-now.com/api/now/table/incident?sysparm_display_value=all&sysparm_fields=sys_class_name%2Ccategory%2Cseverity%2Ccorrelation_display%2Cclose_code'
 
 # Eg. User name="admin", Password="admin" for this code sample.
     user = 'admin'
-    pwd = 'Zs+IQVw7*ai8'
+    pwd = 'VHyW1l$w7jR@'
 
 # Set proper headers
     headers = {"Content-Type":"application/json","Accept":"application/json"}
