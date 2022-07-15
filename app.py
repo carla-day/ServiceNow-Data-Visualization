@@ -15,7 +15,7 @@ def chart1():
 
 # Eg. User name="admin", Password="admin" for this code sample.
     user = 'admin'
-    pwd = 'fz8MdMlK/1S^'
+    pwd = "fz8MdMlK/1S^"
 
 # Set proper headers
     headers = {"Content-Type":"application/json","Accept":"application/json"}
