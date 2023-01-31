@@ -25,6 +25,7 @@ def chart1():
 
 # Check for HTTP codes other than 200
     if response.status_code != 200: 
+        return render_template("hibernate.html")
         print('Status:', response.status_code, 'Headers:', response.headers, 'Error Response:',response.json())
         exit()
 
@@ -77,6 +78,9 @@ def chart2():
 
 # Check for HTTP codes other than 200
     if response.status_code != 200: 
+        #if the response is not 200 return html to advise user the instance is hibernating
+       return render_template("hibernate.html")
+
         print('Status:', response.status_code, 'Headers:', response.headers, 'Error Response:',response.json())
         exit()
 
