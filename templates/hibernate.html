@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="{{ url_for('static',filename='style.css') }}">
+        {% if title%}
+        <title>Incidents Graph {{title}}</title>
+        {% endif %}
+        <title>Incidents Graph</title>
+        <!--Load chart js to be able to add responsive canvas-->
+
+    </head>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/chart1">Chart 1</a>
+        <a href="{{ url_for('chart2') }}">Chart 2</a>
+    </nav>
+    <body class="home">
+       <h1 class="title">Incidents Visualization</h1>
+      
+        <h2>
+          Instance is Hibernating, please refer to this <a href= "https://docs.google.com/presentation/d/15OAIOopHFt3N4gISEZpI51LJtbSPQyiI85egVxlizQc/edit?usp=sharing">powerpoint</a> for a demo of our website.
+        </h2>
+       
+      
+
+
+
+    </body>
+</html>
