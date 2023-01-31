@@ -1,6 +1,11 @@
 from flask import Flask, render_template
 import pandas as pd
 import requests
+from environs import Env
+
+env = Env()
+env.read_env()  # read .env file, if it exists
+# required variables
 
 app = Flask(__name__)
 
@@ -14,8 +19,8 @@ def chart1():
     url = 'https://dev96672.service-now.com/api/now/table/incident?sysparm_display_value=all&sysparm_fields=sys_class_name%2Ccategory%2Cseverity%2Ccorrelation_display%2Cclose_code'
 
 # Eg. User name="admin", Password="admin" for this code sample.
-    user = 'admin'
-    pwd = "fz8MdMlK/1S^"
+    user = env("USER")
+    pwd = env("PASSWORD")
 
 # Set proper headers
     headers = {"Content-Type":"application/json","Accept":"application/json"}
@@ -67,8 +72,8 @@ def chart2():
     url = 'https://dev96672.service-now.com/api/now/table/incident?sysparm_display_value=all&sysparm_fields=sys_class_name%2Ccategory%2Cseverity%2Ccorrelation_display%2Cclose_code'
 
 # Eg. User name="admin", Password="admin" for this code sample.
-    user = 'admin'
-    pwd = "fz8MdMlK/1S^"
+    user = env("USER")
+    pwd = env("PASSWORD")
 
 # Set proper headers
     headers = {"Content-Type":"application/json","Accept":"application/json"}
