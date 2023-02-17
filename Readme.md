@@ -13,7 +13,8 @@ Once pip is installed we must install the libraries and framework we will use
 * pip install flask
 * pip install requests
 * pip install pandas
-    
+## Snapshots
+
     ###### *We do not need matplotlib as we will be using Chart.js to graph*
 
 ## Authors
