@@ -6,7 +6,8 @@ Using sample API data from Service Now (Rest API Explorer), I created two bar gr
 what categories seem to be doing well. 
 
 ## Executing program
-To start, you must have python version 3 installed and pip 
+To start, you must have python version 3 installed and pip 4
+Also, the Service Now instance cannot be in hibernation. If it is, please email me to wake it up. 
 ###### Use this link to install pip https://www.geeksforgeeks.org/how-to-install-pip-on-windows/ 
 
 Once pip is installed we must install the libraries and framework we will use
