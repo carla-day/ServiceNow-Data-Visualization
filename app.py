@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 import pandas as pd
 import requests
-from environs import Env
+from environ import Env
 
 env = Env()
 env.read_env()  # read .env file, if it exists
