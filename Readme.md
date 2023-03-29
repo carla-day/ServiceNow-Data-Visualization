@@ -19,8 +19,7 @@ Once pip is installed we must install the libraries and framework we will use
     ###### *We do not need matplotlib as we will be using Chart.js to graph*
 ## Usage
 Job Function 3: Identify and design the most appropriate technical solution, taking into consideration coding best practice and appropriate quality standards.                                
-## Authors
-###### Carla Day
+## Authors: Carla Day
 <a href="linkedin.com/in/carla-day-2a3212217"> <img src="images/linkedin.svg" alt="Linked In" width="30"/> </a>
 <a href="github.com/carla-day" > <img src="images/github.svg" alt="GitHub Profile" width="30"/></a>
 <br>
