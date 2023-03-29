@@ -44,7 +44,6 @@ poetry-core==1.0.8
 ptyprocess==0.7.0
 pylev==1.4.0
 pyparsing==3.0.9
-python_version==3.9.9
 python-dateutil==2.8.2
 pytz==2022.1
 pywin32-ctypes==0.2.0
